@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E2F6CA;
+}
+
+header{
+    grid-column: 1/span 2;
+    background-color: #78C1F3;
+    color: #ffff;
+    text-align: center;
+    padding: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+aside{
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+article{
+    background-color: #9BE8D8;
+    padding: 50px;
+}
